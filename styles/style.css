@@ -62,7 +62,9 @@
 .inscription1 {
     display: flex;
     justify-content: flex-start;
-    position: relative;
+    position: absolute;
+    top: 200px;
+    left: 50px;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -76,7 +78,9 @@
 .inscription2 {
     display: flex;
     justify-content: center;
-    position: relative;
+    position: absolute;
+    left: 290px;
+    top: 328px;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -90,7 +94,9 @@
 .inscription3 {
     display: flex;
     justify-content: flex-end;
-    position: relative;
+    position: absolute;
+    right: 50px;
+    bottom: 150px;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
