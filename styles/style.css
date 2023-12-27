@@ -298,7 +298,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 1052px;
-    margin: 0 auto;
+    margin: 0 auto 89px;
     align-content: space-between;
     align-items: center;
 }
@@ -330,10 +330,18 @@
     list-style-type: circle;
 }
 
-.footer__socials-logo {
+.footer__social img {
+    height: 48px;
+    width: 48px;
+    margin-left: 46.5px;
+}
+
+.footer__socials-logos {
+    list-style: none;
     display: flex;
     margin: auto;
     width: 237px;
     height: 48px;
     flex-shrink: 0;
+
 }
