@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
@@ -26,13 +26,15 @@
         </nav>
         <div class="header__logo">
           <a>
-            <img class="header__logo-image" src="/images/logo-black.svg" alt="Логотип проекта" title="Логотип"/>
+            <img class="header__logo-image" src="/images/logo-black.svg" alt="Логотип проекта" title="Логотип" href="/">
           </a>
         </div>
-        <div class="header__contacts">
+        <address class="header__contacts">
           <div class="header__contacts__wrapper">
-            <div class="header__contacts_number">
-              +9 999 555 5555
+            <div>
+              <a class="header__contacts_number" href="tel:+9 999 555 5555">
+                +9 999 555 5555
+              </a>
             </div>
             <a class="header__contacts_email" href="mailto:info@sobaka.ge">
               info@sobaka.ge
@@ -41,7 +43,7 @@
               наб. Принсенграхт 263-265, Амстердам
             </div>
           </div>
-        </div>
+        </address>
       </header>
 
       <div class="banner">
@@ -49,21 +51,24 @@
         <div class="banner__wrapper">
           <div class="banner__wrapper inscription1">
             <span>он</span>
-            <span>о</span>
+            <span class="banner__wrapper inscription1_extended">о</span>
           </div>
           <div class="banner__wrapper inscription2">
             <span>теб</span>
-            <span>е</span>
+            <span class="banner__wrapper inscription2_extended">е</span>
           </div>
           <div class="banner__wrapper inscription3">
-            <span>н</span>
+            <span class="banner__wrapper inscription3_extended">н</span>
             <span>адо</span>
           </div>
         </div>
 
         <div class="banner__text">
           <div class="banner__text-wrapper">
-            Аукцион    вещей,    в    которые    никто    не     верил
+            Аукцион вещей, в которые никто
+          </div>
+          <div class="banner__text-wrapper indent">
+            не верил
           </div>
           <div class="banner__button">
             <button class="banner__button-button">Сделать ставку
@@ -142,9 +147,11 @@
       <footer class="footer">
 
         <div class="footer__contacts">
-          <div class="footer__contacts__wrapper">
-            <div class="foooter__contacts_number">
+          <address class="footer__contacts__wrapper">
+            <div>
+            <a class="foooter__contacts_number" href="#">
               +9 999 555 5555
+            </a>
             </div>
             <a class="footer__contacts_email" href="mailto:info@sobaka.ge">
               info@sobaka.ge
@@ -152,10 +159,10 @@
             <div class="footer__contacts_address">
               наб. Принсенграхт 263-265, Амстердам
             </div>
-          </div>
+          </address>
         </div>
 
-        <div class="footer__menu">
+        <nav class="footer__menu">
           <ul class="footer__links-list">
             <li class="footer__links-list-item header__links-list-item_first">
               <a class="footer__link header__link-active" href="#0">главная</a>
@@ -167,7 +174,7 @@
               <a class="footer__link" href="#0">об аукционе</a>
             </li>
           </ul>
-        </div>
+        </nav>
         <div class="footer__socials">
           <ul class="footer__socials-logos">
             <li class="footer__social">

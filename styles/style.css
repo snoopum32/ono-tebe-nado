@@ -13,16 +13,19 @@
 }
 
 .header__links-list {
-    list-style: none;
     display: flex;
-}
-
-.header__links-list-item_no-bullit {
-
+    padding: 12px 22px 12px 0px;
+    word-spacing: 17px;
 }
 
 .header__links-list-item {
+    list-style: circle;
     margin-right: 20px;
+    font-size: 18px;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
 }
 
 .header__logo {
@@ -36,10 +39,12 @@
 }
 
 .header__contacts {
+    font-size: 18px;
     flex: 1 0 33.33333%;
     box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
+    font-style: normal;
 }
 
 .header__contacts__wrapper {
@@ -55,16 +60,12 @@
     background-size: cover;
 }
 
-.banner__wrapper {
-
-}
-
 .inscription1 {
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    top: 200px;
-    left: 50px;
+    top: 162px;
+    left: 56px;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -73,38 +74,50 @@
     text-transform: uppercase;
     color: #ffffff;
     z-index: 3;
+}
+
+.inscription1_extended {
+    margin: 0 0 0 30px;
 }
 
 .inscription2 {
     display: flex;
     justify-content: center;
     position: absolute;
-    left: 290px;
-    top: 328px;
+    left: 340px;
+    top: 286px;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
     line-height: 115%;
-    letter-spacing: 30px;
+    letter-spacing: 29px;
     text-transform: uppercase;
     color: #ffffff;
     z-index: 3;
+}
+
+.inscription2_extended {
+    margin: 0 0 0 26px;
 }
 
 .inscription3 {
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    right: 50px;
-    bottom: 150px;
+    right: 27px;
+    bottom: 237px;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
     line-height: 115%;
-    letter-spacing: 30px;
+    letter-spacing: 29px;
     text-transform: uppercase;
     color: #ffffff;
     z-index: 3;
+}
+
+.inscription3_extended {
+    margin: 0 30px 0 0;
 }
 
 .banner__overlay {
@@ -118,7 +131,7 @@
 
 .banner__text {
     position: absolute;
-    bottom: 50px;
+    bottom: 60px;
     left: 89px;
     display: flex;
     align-items: flex-end;
@@ -134,18 +147,20 @@
 }
 
 .banner__text-wrapper {
-    padding: 12px 68px 12px 0px;
-    word-spacing: 14px;
+    padding: 12px 22px 12px 0px;
+    word-spacing: 17px;
 }
 
-.banner__button {
+.indent{
+    padding: 12px 62px 12px 0px;
+    word-spacing: 23px;
 
 }
 
 .banner__button-button {
     width: 252px;
     height: 52px;
-    flex-shrink: 0;
+    margin-left: 6px;
     border: 1px solid #FFF;
     background: transparent;
     color: #FFF;
@@ -312,6 +327,7 @@
 
 .footer__contacts__wrapper {
     width: 240px;
+    font-style: normal;
 }
 
 .footer__links-list {
