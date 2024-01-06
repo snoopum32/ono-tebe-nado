@@ -49,6 +49,7 @@
 
 .header__contacts__wrapper {
     width: 240px;
+    font-size: 18px;
 }
 
 .banner {
@@ -127,6 +128,7 @@
     opacity: 0.6;
     background: #000;
     z-index: 2;
+    border-left: 1px solid #000;
 }
 
 .banner__text {
@@ -154,7 +156,6 @@
 .indent{
     padding: 12px 62px 12px 0px;
     word-spacing: 23px;
-
 }
 
 .banner__button-button {
@@ -208,6 +209,7 @@
 }
 
 .lot--title {
+    font-size: 40px;
     margin-bottom: 27px;
     margin-left: 37px;
     text-transform: uppercase
@@ -251,6 +253,7 @@
 }
 
 .lot__more {
+    font-size: 20px;
     margin: 29px 97px 0 39px;
 }
 
@@ -266,13 +269,9 @@
     width: 100%;
 }
 
-.about__logo {
-
-}
-
 .about__logo-wrapper {
     padding: 61px 44px 61px 42px;
-    margin-left: 50px;
+    margin-left: 47px;
     margin-right: 70px;
     width: 237px;
     height: 237px;
@@ -328,6 +327,8 @@
 .footer__contacts__wrapper {
     width: 240px;
     font-style: normal;
+    font-size: 18px;
+    line-height: 135%;
 }
 
 .footer__links-list {
@@ -338,6 +339,7 @@
     list-style: none;
     flex: 1 0 33.33333%;
     text-align: center;
+    font-size: 18px;
 }
 
 .footer__socials {
@@ -359,5 +361,4 @@
     width: 237px;
     height: 48px;
     flex-shrink: 0;
-
 }
