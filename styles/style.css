@@ -18,7 +18,7 @@
 
 .header__links-list {
     display: flex;
-    padding: 9px 0px 12px 36px;
+    padding: 8px 0px 13px 34px;
     list-style: none;
 }
 
@@ -44,7 +44,7 @@
 
 .header__contacts {
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.33;
     flex: 1 0 33.33333%;
     box-sizing: border-box;
     display: flex;
@@ -54,23 +54,17 @@
     padding: 0px 0px 0px 179px;
 }
 
-
-
 .banner {
-    position: relative;
     margin: 0 auto 177px auto;
     width: 1080px;
-    height: 744px;
-    background-image: url("../images/cover.jpg");
+    min-height: 744px;
+    background: url("../images/cover.jpg");
     background-size: cover;
 }
 
 .inscription1 {
     display: flex;
     justify-content: flex-start;
-    position: absolute;
-    top: 162px;
-    left: 45px;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -78,7 +72,7 @@
     letter-spacing: 30px;
     text-transform: uppercase;
     color: #ffffff;
-    z-index: 3;
+    padding: 162px 0px 0px 43px;
 }
 
 .inscription1_extended {
@@ -87,10 +81,6 @@
 
 .inscription2 {
     display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 330px;
-    top: 286px;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -98,7 +88,7 @@
     letter-spacing: 29px;
     text-transform: uppercase;
     color: #ffffff;
-    z-index: 3;
+    padding: 9px 0px 0px 328px;
 }
 
 .inscription2_extended {
@@ -107,10 +97,6 @@
 
 .inscription3 {
     display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    right: 19px;
-    bottom: 226px;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -118,7 +104,7 @@
     letter-spacing: 29px;
     text-transform: uppercase;
     color: #ffffff;
-    z-index: 3;
+    padding: 4px 0px 0px 618px;
 }
 
 .inscription3_extended {
@@ -126,33 +112,26 @@
 }
 
 .banner__overlay {
-    position: absolute;
-    width: 1080px;
-    height: 744px;
-    opacity: 0.6;
-    background: #000;
-    z-index: 2;
+    width: 100%;
+    min-height: 744px;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .banner__text {
-    position: absolute;
-    bottom: 47px;
-    left: 78px;
     display: flex;
-    align-items: flex-end;
     justify-content: space-between;
     color: #ffffff;
     text-align: center;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 127.273%;
+    line-height: 125.273%;
     text-transform: uppercase;
-    z-index: 3;
+    padding: 123px 47px 48px 79px;
 }
 
 .banner__text-wrapper {
-    padding: 12px 22px 12px 0px;
+    padding: 14px 22px 11px 0px;
     word-spacing: 17px;
 }
 
@@ -163,8 +142,7 @@
 
 .banner__button {
 	display: block;
-    width: 256px;
-    height: 54px;
+    padding: 0px 32px 0px 32px;
     margin-left: 6px;
     border: 1px solid #FFF;
     background: transparent;
@@ -184,16 +162,17 @@
 
 .lots {
     display: flex;
-    margin: -12.5px;
+    justify-content: space-between;
 }
 
 .lots__item-overlay {
-    position: absolute;
-    width: 328px;
-    height: 554px;
-    opacity: 0.6;
-    background: #000;
-    z-index: 2;
+    width: 100%;
+    min-height: 553px;
+    background: rgba(0,0,0,0.6);
+    padding: 43px 36px 45px 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .lots__item {
@@ -203,11 +182,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    text-decoration-line: underline;
-    margin: 12.5px;
     box-sizing: border-box;
     width: 328px;
-    height: 554px;
+    min-height: 554px;
     background-size: cover;
     z-index: 3;
 }
@@ -215,14 +192,11 @@
 .lot--title {
     font-size: 40px;
     margin-bottom: 27px;
-    margin-left: 37px;
+    margin-left: 35px;
     text-transform: uppercase
 }
 
 .lots__item--title {
-    padding: 48px 35px 0 39px;
-    position: absolute;
-    z-index: 3;
     color: #FFF;
     font-size: 22px;
     font-style: normal;
@@ -233,10 +207,6 @@
 }
 
 .lots__item--text {
-    padding: 0 35px 0px 39px;
-    z-index: 2;
-    bottom: 46px;
-    position: absolute;
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -258,7 +228,7 @@
 
 .lot__more {
     font-size: 20px;
-    margin: 29px 97px 0 39px;
+    margin: 29px 94px 0 37px;
 	display: block;
     width: 196px;
 }
@@ -304,8 +274,8 @@
     line-height: normal;
 }
 
-.about__content p {
-    margin-bottom: 25px;
+.about__content__text {
+    margin-bottom: 21px;
 }
 
 .footer {
@@ -327,7 +297,7 @@
     width: 240px;
     font-style: normal;
     font-size: 18px;
-    line-height: 135%;
+    line-height: 134%;
 }
 
 .footer__links-list {
@@ -341,7 +311,7 @@
     font-size: 18px;
 }
 
-.footer__social img {
+.footer__social__img {
     height: 48px;
     width: 48px;
     margin-left: 46.5px;
@@ -350,12 +320,8 @@
 .footer__socials-logos {
 	flex: 1 0 33.33333%;
     text-align: center;
-    list-style-type: circle;
     list-style: none;
     display: flex;
-    /* margin: 0px 0px 0px 0px; */
     padding: 0px 0px 0px 50px;
-    /* width: 237px; */
-    /* height: 48px; */
     flex-shrink: 0;
 }
