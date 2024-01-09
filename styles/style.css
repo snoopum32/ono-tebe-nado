@@ -26,7 +26,7 @@
     margin-right: 31px;
     font-size: 18px;
     position: relative;
-	list-style: circle;
+    list-style: circle;
 }
 
 .header__links-list-item:last-child {
@@ -62,53 +62,44 @@
     background-size: cover;
 }
 
-.inscription1 {
-    display: flex;
-    justify-content: flex-start;
+.banner__wrapper {
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
     line-height: 115%;
-    letter-spacing: 30px;
     text-transform: uppercase;
     color: #ffffff;
-    padding: 162px 0px 0px 43px;
+}
+
+.inscription1 {
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 30px;
+    padding: 162px 0 0 43px;
 }
 
 .inscription1_extended {
-    margin: 0 0 0 30px;
+    margin-left: 30px;
 }
 
 .inscription2 {
     display: flex;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 115%;
     letter-spacing: 29px;
-    text-transform: uppercase;
-    color: #ffffff;
-    padding: 9px 0px 0px 328px;
+    padding: 9px 0 0 328px;
 }
 
 .inscription2_extended {
-    margin: 0 0 0 26px;
+    margin-left: 26px;
 }
 
 .inscription3 {
     display: flex;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 115%;
     letter-spacing: 29px;
-    text-transform: uppercase;
-    color: #ffffff;
-    padding: 4px 0px 0px 618px;
+    padding: 4px 0 0 618px;
 }
 
 .inscription3_extended {
-    margin: 0 30px 0 0;
+    margin-right: 30px;
 }
 
 .banner__overlay {
@@ -286,18 +277,12 @@
     align-content: space-between;
 }
 
-.footer__contacts {
-    flex: 1 0 33.33333%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: flex-start;
-}
-
 .footer__contacts__wrapper {
     width: 240px;
     font-style: normal;
     font-size: 18px;
     line-height: 134%;
+    margin-right: 98px;
 }
 
 .footer__links-list {
@@ -305,7 +290,6 @@
 }
 
 .footer__menu {
-    list-style: none;
     flex: 1 0 31%;
     text-align: center;
     font-size: 18px;
